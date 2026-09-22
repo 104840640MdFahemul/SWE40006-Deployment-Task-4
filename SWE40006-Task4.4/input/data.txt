@@ -1,0 +1,5 @@
+Software deployment improves application delivery.
+Docker provides consistent containerised environments.
+Persistent storage preserves application data.
+Container logs help verify service execution.
+SWE40006 Task 4.4 demonstrates non-web container deployment.

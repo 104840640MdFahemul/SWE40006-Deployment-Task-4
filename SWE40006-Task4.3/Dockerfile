@@ -1,0 +1,16 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY app.py .
+
+EXPOSE 5000
+
+ENV APP_NAME="SWE40006 - Task 4.3"
+ENV APP_ENV="Development"
+
+CMD ["python", "app.py"]
